@@ -2,12 +2,13 @@
 
 import Link from 'next/link'
 import styles from './page.module.css'
+import React from 'react';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <h1>Welcome to My Personal Website</h1>
-      <p>Hi, I'm Matthew Gates, a Software Engineer.</p>
+      <p>Hi, I&apos;m Matthew Gates, a Software Engineer.</p>
       <p>Feel free to explore my website and learn more about me and my work!</p>
 
       <div className={styles.grid}>
