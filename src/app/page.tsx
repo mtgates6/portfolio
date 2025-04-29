@@ -10,7 +10,7 @@ export default function Home() {
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-gray-100">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4">Hi, I'm Matthew Gates</h1>
+          <h1 className="text-5xl md:text-6xl font-bold mb-4">Hi, I&apos;m Matthew Gates</h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8">Full Stack Developer | Problem Solver | Tech Enthusiast</p>
           <div className="space-x-4">
             <a href="#projects" className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">

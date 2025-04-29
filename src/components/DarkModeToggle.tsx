@@ -1,6 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { MoonIcon, SunIcon } from '@heroicons/react/24/outline';
+import React from 'react';
 
 export default function DarkModeToggle() {
   const [isDark, setIsDark] = useState(false);
